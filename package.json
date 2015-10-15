@@ -1,5 +1,6 @@
 {
   "name":"repo-report",
+  "license": "MIT",
   "version": "1.0.0",
   "scripts": {
     "postinstall": "bower install"
@@ -7,5 +8,9 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-webserver": "^0.9.1"
+  },
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/OfficeDev/Outlook-Add-in-Repo-Report.git"
   }
 }
