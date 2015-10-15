@@ -1,0 +1,21 @@
+<!--
+  Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. 
+  See LICENSE in the project root for license information.
+-->
+
+<div class="ms-Grid">
+	<div class="ms-Grid-row">
+		<div class="ms-Grid-col ms-u-sm6">
+			<div class="ms-List">
+				<div class="ms-ListItem" ng-repeat="repo in home.repos">
+					<h2><a href="{{ repo.url }}" target="_blank">{{ repo.title }}</a> by <a href="{{ repo.ownerUrl }}" target="_blank">{{ repo.owner }}</a></h2>
+					<span class="octicon octicon-star"> {{ repo.stars}}</span>
+					<span class="octicon"></span>
+					<span class="octicon octicon-repo-forked"> {{ repo.forks }}</span>							
+					<h3>{{ repo.description }}</h3>
+					<hr ng-show="$index < home.repos.length - 1" />
+				</div>
+			</div><!-- list -->
+		</div><!-- grid col -->
+	</div><!-- grid row -->
+</div><!-- grid -->

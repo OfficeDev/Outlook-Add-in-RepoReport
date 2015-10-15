@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MailApp">
+  <Id>0127a87f-ebef-4732-885c-7e4d4e59ccb2</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>OfficeDev</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Repo Report"/>
+  <Description DefaultValue="Repo Report scans your emails for links to GitHub repositories and displays information about ones it finds."/>
+  <!-- HighResolutionIconUrl and SupportUrl are required attributes for submitting to the store. -->
+  <!--<HighResolutionIconUrl DefaultValue="[Icon URL]"/>-->
+  <!--<SupportUrl DefaultValue="[Support URL]"/>-->
+  <Hosts>
+    <Host Name="Mailbox"/>
+  </Hosts>
+  <Requirements>
+    <Sets>
+      <Set Name="MailBox" MinVersion="1.1"/>
+    </Sets>
+  </Requirements>
+  <FormSettings>
+    <Form xsi:type="ItemRead">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://localhost:8443/appread/index.html"/>
+        <RequestedHeight>250</RequestedHeight>
+      </DesktopSettings>
+    </Form>
+  </FormSettings>
+  <Permissions>ReadWriteItem</Permissions>
+  <Rule xsi:type="RuleCollection" Mode="Or">
+    <Rule xsi:type="ItemHasRegularExpressionMatch" 
+          PropertyName="BodyAsHTML" 
+          RegExName="GitHubUrl" 
+          RegExValue="github.com/[a-zA-Z0-9-._]*/[a-zA-Z0-9-._]*"/>
+    <Rule xsi:type="ItemIs" ItemType="Appointment" FormType="Read"/>
+    <Rule xsi:type="ItemIs" FormType="ReadOrEdit" ItemType="Message" />
+  </Rule>
+  <DisableEntityHighlighting>false</DisableEntityHighlighting>
+</OfficeApp>
