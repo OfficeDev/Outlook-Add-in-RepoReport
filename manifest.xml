@@ -6,9 +6,6 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Repo Report"/>
   <Description DefaultValue="Repo Report scans your emails for links to GitHub repositories and displays information about ones it finds."/>
-  <!-- HighResolutionIconUrl and SupportUrl are required attributes for submitting to the store. -->
-  <!--<HighResolutionIconUrl DefaultValue="[Icon URL]"/>-->
-  <!--<SupportUrl DefaultValue="[Support URL]"/>-->
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
