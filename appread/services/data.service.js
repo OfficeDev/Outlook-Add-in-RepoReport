@@ -43,9 +43,7 @@
               'description': data.description,
               'url': data.html_url,
               'stars': data.stargazers_count,
-              'forks': data.forks_count,
-              'owner': data.owner.login,
-              'ownerUrl': data.owner.html_url
+              'forks': data.forks_count
             };
             
             repos.push(repo); 
