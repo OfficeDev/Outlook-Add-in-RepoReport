@@ -9,9 +9,9 @@
 			<div class="ms-List">
 				<div class="ms-ListItem" ng-repeat="repo in home.repos">
 					<h2><a href="{{ repo.url }}" target="_blank">{{ repo.title }}</a> by <a href="{{ repo.ownerUrl }}" target="_blank">{{ repo.owner }}</a></h2>
-					<span class="octicon octicon-star"> {{ repo.stars}}</span>
-					<span class="octicon"></span>
-					<span class="octicon octicon-repo-forked"> {{ repo.forks }}</span>							
+					<i class="fa fa-star"></i> {{ repo.stars}}
+					<i class="fa"></i>
+					<i class="fa fa-code-fork"></i> {{ repo.forks }} 						
 					<h3>{{ repo.description }}</h3>
 					<hr ng-show="$index < home.repos.length - 1" />
 				</div>
