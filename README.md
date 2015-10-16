@@ -25,7 +25,7 @@
 3. Click *Repo Report* found directly above the body of the email to see the add-in in action.
 
 ## Questions and comments
-We'd love to get your feedback about this sample. You can send your questions and suggestions to us in the [Issues](https://github.com/OfficeDev/Outlook-Add-in-Repo-Report/issues) section of this repository.
+We'd love to get your feedback about this sample. You can send your questions and suggestions to us in the [Issues](https://github.com/OfficeDev/Outlook-Add-in-RepoReport/issues) section of this repository.
 
 ## Additional resources
 * [Yeoman generator](https://github.com/OfficeDev/generator-office) - Yeoman generator for building Microsoft Office related projects (including add-ins). This project was built using it.
