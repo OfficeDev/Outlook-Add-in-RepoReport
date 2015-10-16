@@ -1,0 +1,4 @@
+If your project uses or references 3rd party components or trademarks, you need a NOTICES file.
+See https://github.com/OfficeDev/O365-Ruby-Unified-API-Connect/blob/master/NOTICES.md for an example.
+
+Not sure if this is the case, but I thought I'd just let you know that some of our projects need this per LCA guidelines.
