@@ -1,5 +1,5 @@
 # Repo Report
-**Repo Report** is an Outlook Add-in, made with Angular, that scans your emails for GitHub repository links and displays information about the ones it finds.
+**Repo Report** is an Outlook Add-in, made with Angular, that scans your emails for GitHub public repository links and displays information about the ones it finds.
 
 ![Repo Report screenshot](./repo report screenshot.PNG)
 
@@ -17,10 +17,11 @@
 6. Click the plus icon, then choose *Add from a file*.
 7. Browse to this repository folder and choose *manifest.xml*.
 8. Then complete the wizard (*Next*, *Install*, *OK*) to make the Add-in available on your Office 365 account.
+9. Trust the certificate? The add-in won't run if the certificate is not trusted.
 
 ## Run the Add-in
 1. After installing the Add-in, go to [mail.office365.com](mail.office365.com). 
-2. Choose an email (you probably have to send yourself one first) that has at least one link to a GitHub repository. *The Add-in is only activated if a target URL is found!*
+2. Choose an email (you probably have to send yourself one first) that has at least one link to a GitHub public repository. *The Add-in is only activated if a target URL is found!*
 3. Click *Repo Report* found directly above the body of the email to see the Add-in in action.
 
 ## Questions and comments
