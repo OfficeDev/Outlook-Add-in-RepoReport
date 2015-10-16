@@ -31,8 +31,6 @@
           PropertyName="BodyAsHTML" 
           RegExName="GitHubUrl" 
           RegExValue="github.com/[a-zA-Z0-9-._]*/[a-zA-Z0-9-._]*"/>
-    <Rule xsi:type="ItemIs" ItemType="Appointment" FormType="Read"/>
-    <Rule xsi:type="ItemIs" FormType="ReadOrEdit" ItemType="Message" />
   </Rule>
   <DisableEntityHighlighting>false</DisableEntityHighlighting>
 </OfficeApp>
