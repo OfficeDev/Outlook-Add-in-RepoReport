@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: 'Outlook add-in: Repo report'
+  path: ''
+  description: Repo Report is an Outlook add-in, made with Angular, that scans your emails for public GitHub repository links and displays information about the ones it finds.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-in
+  azureDeploy: ''
+  author: martellaj
+  platforms: []
+  languages:
+  - angular.js
+  extensions:
+    products:
+    - Outlook
+    scenarios: []
