@@ -1,3 +1,17 @@
+---
+topic: sample
+products:
+- Outlook
+- Office 365
+languages:
+- CSS
+- angular.js
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 10/15/2015 12:44:12 PM
+---
 # Repo Report
 **Repo Report** is an Outlook add-in, made with Angular, that scans your emails for public GitHub repository links and displays information about the ones it finds.
 
