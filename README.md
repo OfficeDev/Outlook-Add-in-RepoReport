@@ -1,15 +1,17 @@
 ---
 topic: sample
 products:
-- Outlook
-- Office 365
+- office-outlook
+- office-365
 languages:
-- CSS
-- angular.js
+- javascript
 extensions:
   contentType: samples
   technologies:
   - Add-ins
+  platforms:
+  - CSS
+  - AngularJS
   createdDate: 10/15/2015 12:44:12 PM
 ---
 # Repo Report
