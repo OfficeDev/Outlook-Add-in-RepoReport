@@ -17,7 +17,7 @@ extensions:
 # Repo Report
 **Repo Report** is an Outlook add-in, made with Angular, that scans your emails for public GitHub repository links and displays information about the ones it finds.
 
-![Repo Report screenshot](./repo report screenshot.PNG)
+![Repo Report screenshot](./repo%20report%20screenshot.PNG)
 
 ## Prerequisites
 * [npm](https://www.npmjs.com/), Node Package Manager, is required to install dev dependencies.
